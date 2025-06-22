@@ -1,6 +1,7 @@
-1. NavBar components
--- a. Logo Placeholder
--- b. Section Placeholders
--- c. Icon Placeholders.
-2. HighLight components
--- HighLight Line
+
+<h1>NavBar Component</h1>
+<ul>
+<li>Logo Placeholder</li>
+<li>Section Placeholders</li>
+<li>Icon Placeholders</li>
+</ul>
