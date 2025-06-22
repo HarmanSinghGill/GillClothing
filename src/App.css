@@ -1,0 +1,88 @@
+.center {
+    display: flex; justify-content: center; align-items: center;
+}
+.Initial{
+    position: relative; top: 0px; left: 0px; width: 100%; height: 100%;
+}
+.NavBar{
+    position: relative; flex-direction: row;
+    left : 20px; width: calc(100% - 40px); height: 70px;
+    border-bottom: 1.5px solid rgba(0,0,0,.5);
+}
+.SectionalDivide{
+    position: relative; height: 100%;  width: calc(100%/3);
+}
+.SectionalDivide:nth-child(1){
+    align-items:flex-end; justify-content: flex-start;
+}
+
+
+.bodoni-moda {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 40px; bottom: 10px; position: relative;
+}
+.logo {
+    font-size: 40px; bottom: 10px;
+}
+.placeholderForBtns{
+    position: relative; width: 70%; height: 70%;
+    display: flex; justify-content: baseline;
+}
+.SectionalDivide:nth-child(2) .locateBtns{
+    color: rgb(44, 38, 49); padding: 1em;
+    cursor: pointer;
+}
+
+.roboto-flex {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+.SectionalDivide:nth-child(3){
+    /* background-color: rgb(155, 149, 161); */
+    display: flex; justify-content:end; align-items: baseline;
+
+}
+
+.linkPlaceholders{
+    position: relative; bottom: 0px; right: 0px; margin-left: 1px; width: 10%; height: 100%; 
+}
+.IconHolder {
+    justify-content: center; align-items: center; cursor: pointer; 
+}
+.material-icons {
+    font-weight: lighter;
+}
+
+/* HighLightArea CSS  */
+
+.HighLightArea{
+    height: calc(100% - 70px); position: absolute; top: 70px;
+}
+.HighLightLine{
+    height: 30%; margin: 20px;
+    font-size: 12rem; letter-spacing: 10px;
+    color: rgba(0,0,0,.7); font-weight: bolder;
+}
+.oranienbaum-regular {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
